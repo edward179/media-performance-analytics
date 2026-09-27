@@ -1,0 +1,138 @@
+[
+  {
+    "campaign_id": "CAMP_001",
+    "action": "Maintain",
+    "budget_delta_pct": 0,
+    "confidence": "Medium",
+    "rationale": "Health score 71.1, CAC +2.9% vs target, mature LTV:CAC=0.76, rolling CAC is stable (0.3% over the observed period). Recommend Maintain.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_002",
+    "action": "Scale",
+    "budget_delta_pct": 15,
+    "confidence": "High",
+    "rationale": "Health score 85.3, CAC +6.7% vs target, mature LTV:CAC=1.69, rolling CAC is stable (-0.9% over the observed period). Recommend Scale.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_003",
+    "action": "Maintain",
+    "budget_delta_pct": 0,
+    "confidence": "Medium",
+    "rationale": "Health score 95.0, CAC -40.9% vs target, mature LTV:CAC=2.0, rolling CAC is stable (0.7% over the observed period). Recommend Maintain.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_004",
+    "action": "Scale",
+    "budget_delta_pct": 15,
+    "confidence": "High",
+    "rationale": "Health score 89.2, CAC -6.4% vs target, mature LTV:CAC=1.72, rolling CAC is stable (-3.1% over the observed period). Recommend Scale.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_005",
+    "action": "Scale",
+    "budget_delta_pct": 15,
+    "confidence": "High",
+    "rationale": "Health score 92.4, CAC +2.5% vs target, mature LTV:CAC=2.04, rolling CAC is stable (-0.1% over the observed period). Recommend Scale.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_006",
+    "action": "Maintain",
+    "budget_delta_pct": 0,
+    "confidence": "Medium",
+    "rationale": "Health score 66.3, CAC +37.5% vs target, mature LTV:CAC=1.19, rolling CAC is stable (0.6% over the observed period). Recommend Maintain.",
+    "additional_suggestions": [
+      {
+        "type": "creative_fatigue",
+        "detail": "CTR changed -15.2% over the observed period — a sign of creative fatigue; consider refreshing the creative."
+      }
+    ],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_007",
+    "action": "Maintain",
+    "budget_delta_pct": 0,
+    "confidence": "Medium",
+    "rationale": "Health score 61.9, CAC +19.1% vs target, mature LTV:CAC=0.6, rolling CAC is stable (0.0% over the observed period). Recommend Maintain.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_008",
+    "action": "Optimize",
+    "budget_delta_pct": -5,
+    "confidence": "Low",
+    "rationale": "Current CAC is 12,867 VND (+2.9% vs target 12,500 VND), but ltv_data_status='No LTV Tracking', so there is not enough LTV evidence to Scale. Recommend Optimize and keep monitoring until mature LTV data is available.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_009",
+    "action": "Scale",
+    "budget_delta_pct": 15,
+    "confidence": "High",
+    "rationale": "Health score 75.4, CAC +5.8% vs target, mature LTV:CAC=1.15, rolling CAC is stable (0.0% over the observed period). Recommend Scale.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_010",
+    "action": "Optimize",
+    "budget_delta_pct": -5,
+    "confidence": "Low",
+    "rationale": "Current CAC is 13,342 VND (-4.7% vs target 14,000 VND), but ltv_data_status='No LTV Tracking', so there is not enough LTV evidence to Scale. Recommend Optimize and keep monitoring until mature LTV data is available.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_011",
+    "action": "Scale",
+    "budget_delta_pct": 15,
+    "confidence": "High",
+    "rationale": "Health score 99.7, CAC -63.8% vs target, mature LTV:CAC=1.78, rolling CAC is stable (-3.8% over the observed period). Recommend Scale.",
+    "additional_suggestions": [
+      {
+        "type": "creative_fatigue",
+        "detail": "CTR changed -15.9% over the observed period — a sign of creative fatigue; consider refreshing the creative."
+      }
+    ],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_012",
+    "action": "Scale",
+    "budget_delta_pct": 15,
+    "confidence": "High",
+    "rationale": "Health score 107.5, CAC -44.0% vs target, mature LTV:CAC=2.67, rolling CAC is stable (-1.1% over the observed period). Recommend Scale.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_013",
+    "action": "Optimize",
+    "budget_delta_pct": -5,
+    "confidence": "Low",
+    "rationale": "Current CAC is 13,374 VND (+11.4% vs target 12,000 VND), but ltv_data_status='No LTV Tracking', so there is not enough LTV evidence to Scale. Recommend Optimize and keep monitoring until mature LTV data is available.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  },
+  {
+    "campaign_id": "CAMP_014",
+    "action": "Maintain",
+    "budget_delta_pct": 0,
+    "confidence": "Medium",
+    "rationale": "Health score 106.2, CAC -45.8% vs target, mature LTV:CAC=2.49, rolling CAC is stable (0.1% over the observed period). Recommend Maintain.",
+    "additional_suggestions": [],
+    "_source": "MOCK"
+  }
+]
